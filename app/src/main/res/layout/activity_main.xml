@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.pc.layoutdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btnfst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnsec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnthr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third" />
+
+        <Button
+            android:id="@+id/btnfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Four" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnfiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Five" />
+
+        <Button
+            android:id="@+id/btnsix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Six"/>
+    </LinearLayout>
+</LinearLayout>
